@@ -1,0 +1,88 @@
+.oshirarse{
+color:#6a30ec;
+background:#e2d7f9;
+padding: 0.9em 1em 1.1em 1em;
+margin: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 1.2em;
+font-weight: 700;
+vertical-align: middle;
+}
+.plus{
+display: inline;
+color:#e2d7f9;
+background-color: #6a30ec;
+padding: 0.3em 0.6em 0.5em 0.6em;
+border-radius: 1em;
+}
+.plus:hover{
+background-color: #a472ff;
+transition: .5s;
+}
+.width100{
+display: block;
+width: 100%;
+padding: 0;
+margin: 0;
+}
+.outertabss{
+display: flex;
+justify-content: center;
+margin-top: 1em;
+}
+.tabss{
+display: inline;
+width:90%;
+}
+.tab-group{
+display: inline-flex;
+margin: 0;
+width:100%
+}
+.tab{
+font-size:1.2em;
+flex-grow: 1;
+margin-bottom: -1px;
+padding:.5em;
+text-align:center;
+cursor:pointer;
+font-weight: 700;
+border-radius: 1em 1em 0 0;
+color:#666;
+background-color :#ddd;   
+}
+.panel-group{
+margin-top: 0;
+display: flex;
+height:auto;
+border:solid 5px #ee6b4c;
+background:#fff;
+}
+.panel{
+display:none;
+}
+.tab.is-active{
+background:#ee6b4c;
+color: #fff;
+transition: all .8s ease-out;
+z-index: 11;
+}
+.panel.is-show{
+margin-top: 0;
+display:inline;
+}
+@media screen and (max-width: 1000px) {
+main{
+margin: 4rem 0 0 0;
+}
+    .oshiraseinner{
+display: inline-flex;
+    }
+.oshirases{
+display: block;
+margin: 0;
+padding: 0;
+    }
+}
