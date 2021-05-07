@@ -1,0 +1,24 @@
+main{
+text-align: center;
+}
+.honbun{
+display: inline-block;
+text-align: left;
+padding: 0;
+margin: 0;
+width:45em;
+line-height: 1.7;
+}
+h1{
+margin-bottom: 0.;
+margin-top: 1.5em;
+}
+li{
+list-style-type: none;
+}
+/*smartphones-------smartphones-------smartphones-------smartphones-------*/
+@media screen and (max-width: 1000px) {
+.honbun{
+width:100%;
+}
+}
