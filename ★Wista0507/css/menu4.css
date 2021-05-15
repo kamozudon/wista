@@ -1,0 +1,84 @@
+.form {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.end-message {
+  display: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.iru {
+  color: #ff0000;
+  font-size: 0.8rem;
+  margin-top: -30px;
+}
+
+.radio {
+  margin-bottom: : -50px;
+}
+
+.list-display {
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.list {
+  text-align: left;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.about-info {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  max-width: 280px;
+  border-bottom: 2px solid #ee6b4c;
+}
+
+#form-club {
+  border: 2px solid;
+  border-radius: 5px;
+  max-width: 480px;
+  font-size: 1rem;
+}
+
+#form-mail {
+  border: 2px solid;
+  border-radius: 5px;
+  max-width: 240px;
+  height: 2.3rem;
+  font-size: 1rem;
+}
+
+
+#form-club2 {
+  border: 2px solid;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 100%;
+  height: 8rem;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 50px;
+  background-color: #000000;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 10px 30px;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #ee6b4c;
+}
